@@ -1,0 +1,104 @@
+.job-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 30%; /* Set width to 30% */
+  margin: 10px; /* Add margin for spacing */
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-card .card-content {
+  padding: 16px;
+}
+
+.job-card .job-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3f51b5;
+  margin-bottom: 10px;
+}
+
+.job-card .company-name {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.job-card .location {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.job-card .type-category {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.job-card .experience {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.job-card .salary {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.job-card .job-description {
+  font-size: 0.875rem;
+  color: #333;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.job-card .job-description.expanded {
+  -webkit-line-clamp: 5;
+}
+
+.job-card .view-more {
+  font-size: 0.875rem;
+  color: #3f51b5;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.job-card .view-more.collapsed {
+  -webkit-line-clamp: 3;
+}
+
+.job-card .tags {
+  margin-bottom: 10px;
+}
+
+.job-card .tag {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.job-card .apply-button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3f51b5;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.job-card .apply-button:hover {
+  background-color: #354089;
+}
